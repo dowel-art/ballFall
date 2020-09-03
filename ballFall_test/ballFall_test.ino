@@ -16,7 +16,7 @@ void setup() {
   pinMode(PIN_SOL_LINE, OUTPUT);
   pinMode(PIN_SW, INPUT_PULLUP);
   pinMode(PIN_LED, OUTPUT);
-  Serial.begin(119200);
+  Serial.begin(115200);
 
   ledFlash(); //LED点滅
   solReset(); //ソレノイドリセット
